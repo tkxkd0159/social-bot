@@ -9,12 +9,11 @@ import (
 	"time"
 )
 import (
-	"github.com/tkxkd0159/go-telebot/config"
+	_ "github.com/tkxkd0159/go-telebot/config"
 	"github.com/tkxkd0159/go-telebot/internal"
 )
 
 func main() {
-	config.Set()
 	bot, err := tgbotapi.NewBotAPI(viper.Get("TELEGRAM_APITOKEN").(string))
 	if err != nil {
 		panic(err)
@@ -51,7 +50,7 @@ func main() {
 	}
 
 	for {
-		time.Sleep(time.Second * 5)
+		time.Sleep(time.Hour * 1)
 		pollLog := fmt.Sprintf("This polling machine has been running for %s \n", time.Now().Sub(startTime))
 		fmt.Println(pollLog)
 
