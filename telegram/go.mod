@@ -1,10 +1,11 @@
-module github.com/tkxkd0159/go-telebot
+module github.com/tkxkd0159/telegram/go-telebot
 
 go 1.18
 
 require (
 	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
 	github.com/spf13/viper v1.12.0
+	github.com/tkxkd0159/go-telebot v0.0.0-20220602124613-a5bd042b4240
 )
 
 require (

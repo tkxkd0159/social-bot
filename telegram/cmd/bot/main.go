@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"github.com/spf13/viper"
 	"log"
 	"strconv"
 	"time"
-)
-import (
-	_ "github.com/tkxkd0159/go-telebot/config"
-	"github.com/tkxkd0159/go-telebot/internal"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	"github.com/spf13/viper"
+
+	_ "github.com/tkxkd0159/telegram/go-telebot/config"
+	"github.com/tkxkd0159/telegram/go-telebot/internal"
 )
 
 func main() {
