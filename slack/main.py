@@ -1,9 +1,4 @@
-import logging
+from lib import Slack, health_check
 
-logging.basicConfig(level=logging.WARN)
-
-from slack_sdk import WebClient
-
-client = WebClient()
-api_response = client.api_test()
-print(api_response)
+health_check()
+app = Slack(token="xoxb-")  # bot token
