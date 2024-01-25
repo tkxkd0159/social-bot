@@ -1,0 +1,23 @@
+name: slack-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2023.11.17
+  - libexpat=2.5.0
+  - libffi=3.4.2
+  - libsqlite=3.44.2
+  - libzlib=1.2.13
+  - ncurses=6.4
+  - openssl=3.2.0
+  - pip=23.3.2
+  - python=3.12.1
+  - readline=8.2
+  - setuptools=69.0.3
+  - slack-sdk=3.26.2
+  - slack_sdk=3.26.2
+  - tk=8.6.13
+  - tzdata=2023d
+  - wheel=0.42.0
+  - xz=5.2.6
